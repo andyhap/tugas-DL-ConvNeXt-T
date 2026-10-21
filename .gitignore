@@ -1,5 +1,39 @@
-.venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
-.pytest_cache/
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local environment
+.env
+.env.*
+
+# Dataset besar
+data/
+imagenette2-160/
+imagenette2-160.tgz
+*.tgz
+*.tar.gz
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Temporary and generated files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
+.idea/
+
+# Keep output folder structure if needed
+# !outputs/.gitkeep

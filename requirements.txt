@@ -1,3 +1,6 @@
-torch==2.14.1
-torchvision==0.29.1
-torchinfo==1.8.0
+# Runtime Colab sudah menyediakan PyTorch dan Torchvision.
+# Jangan paksa versi torch/torchvision berbeda dari runtime yang aktif.
+# Jalankan di Colab: !pip -q install thop torchinfo scikit-learn
+thop
+torchinfo
+scikit-learn
